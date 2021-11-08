@@ -78,8 +78,9 @@ struct SettingsScreenView: View {
                         .padding(.bottom, 4)
                     
                     Text("Email me at [chris.dwyer@hey.com](mailto:chris.dwyer@hey.com)")
+                        .padding(.bottom, 2)
                     
-                    Text("Submit feature requests at")
+                    Text("Submit feature requests on the [GitHub Page](https://github.com/ccdwyer/BenchBuddy)")
                 }
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .padding()

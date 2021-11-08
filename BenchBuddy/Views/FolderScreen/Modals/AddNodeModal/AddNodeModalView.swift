@@ -68,8 +68,6 @@ struct AddNodeModalView: View {
                     if formIsComplete {
                         Button(action: {
                             addNodeModalViewModel.add()
-                            addNodeModalViewModel.reset()
-                            addNodeModalViewModel.displayed = false
                         }) {
                             AngularButton(title: "Add")
                                 .frame(maxWidth: .infinity)

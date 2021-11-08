@@ -23,7 +23,6 @@ struct SetActions: View {
         VStack {
             Button(action: {
                 setViewModel.completeSet()
-                setViewModel.selectedSet = nil
             }) {
                 AngularButton(title: buttonTitle)
                     .frame(maxWidth: 200)

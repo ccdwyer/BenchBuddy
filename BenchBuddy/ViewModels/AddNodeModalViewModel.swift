@@ -70,6 +70,8 @@ class AddNodeModalViewModel: ObservableObject {
             return
         }
         addSet()
+        reset()
+        self.displayed = false
     }
     
     private func addFolder() {

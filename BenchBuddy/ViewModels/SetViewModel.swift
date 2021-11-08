@@ -39,5 +39,6 @@ class SetViewModel: ObservableObject {
     func completeSet() {
         guard let setId = selectedSet else { return }
         Store.global.completeSet(withId: setId)
+        selectedSet = nil
     }
 }
