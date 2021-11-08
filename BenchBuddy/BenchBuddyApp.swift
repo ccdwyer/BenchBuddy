@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct BenchBuddyApp: App {
+    @StateObject var model = Model()
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(model)
         }
     }
 }
