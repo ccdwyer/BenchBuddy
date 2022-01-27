@@ -108,6 +108,8 @@
 		836EE75D270C16540050A0AD /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		836EE75F270C16D70050A0AD /* WeightUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightUnit.swift; sourceTree = "<group>"; };
 		836EE761270CFB090050A0AD /* OneTouchText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneTouchText.swift; sourceTree = "<group>"; };
+		83A3B8DB27A33E8D00473A9B /* PrivacyPolicy.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = PrivacyPolicy.md; sourceTree = "<group>"; };
+		83A3B8DC27A33EBB00473A9B /* TermsAndConditions.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TermsAndConditions.md; sourceTree = "<group>"; };
 		83A3D02327378C3200FD8EE2 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		83A3D02527378CA100FD8EE2 /* StoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreManager.swift; sourceTree = "<group>"; };
 		83A3D0272737A2CC00FD8EE2 /* ConcentricOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentricOnboardingView.swift; sourceTree = "<group>"; };
@@ -177,6 +179,8 @@
 		836EE735270AB3210050A0AD = {
 			isa = PBXGroup;
 			children = (
+				83A3B8DC27A33EBB00473A9B /* TermsAndConditions.md */,
+				83A3B8DB27A33E8D00473A9B /* PrivacyPolicy.md */,
 				836EE740270AB3210050A0AD /* BenchBuddy */,
 				836EE73F270AB3210050A0AD /* Products */,
 				83A3D02227378C3200FD8EE2 /* Frameworks */,
@@ -595,7 +599,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 9;
 				DEVELOPMENT_ASSET_PATHS = "\"BenchBuddy/Preview Content\"";
 				DEVELOPMENT_TEAM = N9RQDVC499;
 				ENABLE_PREVIEWS = YES;
@@ -626,7 +630,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 9;
 				DEVELOPMENT_ASSET_PATHS = "\"BenchBuddy/Preview Content\"";
 				DEVELOPMENT_TEAM = N9RQDVC499;
 				ENABLE_PREVIEWS = YES;

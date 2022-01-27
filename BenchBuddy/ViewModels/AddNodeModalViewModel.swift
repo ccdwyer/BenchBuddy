@@ -67,6 +67,8 @@ class AddNodeModalViewModel: ObservableObject {
     func add() {
         if nodeType.rawValue == NodeType.folder.rawValue {
             addFolder()
+            reset()
+            self.displayed = false
             return
         }
         addSet()
